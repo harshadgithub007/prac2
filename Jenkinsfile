@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'slave'
+        label 'Feature_branch'
     }
     stages {
         stage ('git_checkout') {
