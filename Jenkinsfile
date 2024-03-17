@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'Feature_branch'
+        label 'jai_shree_raam'
     }
     stages {
         stage ('git_checkout') {
